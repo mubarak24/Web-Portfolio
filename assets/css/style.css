@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-  }
+}
   
 header {
     display: flex;
@@ -17,12 +17,12 @@ header {
     padding: 1%;
     background-color: #4b515e;
     color: #92ccce;
-  }
+}
 
-  header h1 {
-    background-color: #92ccce;
-    color: #4b515e;
-  }
+header h1 {
+  background-color: #92ccce;
+  color: #4b515e;
+}
 
 a {
   color: #92ccce;
@@ -46,6 +46,15 @@ p {
   text-align: right;
 }
 
+.banner h2 {
+  margin-top: 80%;
+  margin-right: 40px;
+  padding: 10px;
+  font-size: 30px;
+  color: #92ccce;
+  background-color: rgb(157, 162, 163);
+}
+
 .picSR {
   background-image: url("../images/surf\ report.jpg");
 }
@@ -60,15 +69,6 @@ p {
 }
 .picRB {
   background-image: url("../images/run\ buddy.jpg");
-}
-
-.banner h2 {
-  margin-top: 80%;
-  margin-right: 40px;
-  padding: 10px;
-  font-size: 30px;
-  color: #92ccce;
-  background-color: rgb(157, 162, 163);
 }
 
 .page-section {
@@ -123,3 +123,24 @@ main {
   background-color: aquamarine;
 }
 
+@media screen and (max-width: 992px){
+  header {
+    width: 80%;
+  }
+  
+  body {
+    flex: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  header {
+    width: 50%;
+  }
+  
+  body {
+    flex: auto;
+    width: 50%;
+  }
+}
