@@ -39,19 +39,19 @@ p {
     background-position: center;
 }
 
-.pic SR {
+.picSR {
   background-image: url("../images/surf\ report.jpg");
 }
-.pic LD {
+.picLD {
   background-image: url("../images/LED\ wall.jpg");
 }
-.pic C {
+.picC {
   background-image: url("../images/calculator.jpg");
 }
-.pic PP {
-  background-image: url("../images/pastel\ puzzle.jpg");
+.picPP {
+  background-image: url("..images/pastel\ puzzle.jpg");
 }
-.pic RB {
+.picRB {
   background-image: url("../images/run\ buddy.jpg");
 }
 
