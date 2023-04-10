@@ -55,6 +55,9 @@ p {
   background-color: rgb(157, 162, 163);
 }
 
+.picQoT {
+  background-image: url("../images/127.0.0.1_5500.png");
+}
 .picSR {
   background-image: url("../images/surf\ report.jpg");
 }
@@ -114,9 +117,9 @@ main {
 }
 
 .flex-item:first-child {
-  margin: -3%;
-  margin-bottom: 10px;
-  padding: -3%;
+  margin: -30%;
+  margin-bottom: 20px;
+  padding: -30%;
 }
 
 .flex-item:hover {
