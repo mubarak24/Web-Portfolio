@@ -5,18 +5,18 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-  
+
 header {
-    display: flex;
-    line-height: 1;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #4b515e;
-    color: #92ccce;
+  display: flex;
+  line-height: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #4b515e;
+  color: #92ccce;
 }
 
 header h1 {
@@ -72,18 +72,27 @@ p {
 .picQoT {
   background-image: url("../images/127.0.0.1_5500.png");
 }
+
+.picCF {
+  background-image: url("../images/localhost_3001_splash.png");
+}
+
 .picSR {
   background-image: url("../images/surf\ report.jpg");
 }
+
 .picLD {
   background-image: url("../images/LED\ wall.jpg");
 }
+
 .picC {
   background-image: url("../images/calculator.jpg");
 }
+
 .picPP {
   background-image: url("../images/pastel\ puzzle.jpg");
 }
+
 .picRB {
   background-image: url("../images/run\ buddy.jpg");
 }
@@ -96,7 +105,7 @@ p {
   align-items: stretch;
 }
 
-.page-section > h2 {
+.page-section>h2 {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
@@ -105,7 +114,7 @@ p {
   line-height: 1.1;
 }
 
-.page-section > div {
+.page-section>div {
   flex: 0 0 77%;
 }
 
@@ -132,14 +141,14 @@ main {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-} 
+}
 
 .flex-item {
   border-style: solid;
   border-color: #92ccce;
   margin: 10px;
   height: 300px;
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   flex-basis: calc(49.5% - 1em);
 }
@@ -153,22 +162,22 @@ main {
   background-color: aquamarine;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   header {
     width: 80%;
   }
-  
+
   body {
     flex: auto;
     width: 80%;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   header {
     width: 50%;
   }
-  
+
   body {
     flex: auto;
     width: 50%;
